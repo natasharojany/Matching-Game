@@ -1,23 +1,22 @@
 button {
   height: 40px;
-  width 
-  padding:
+  background-image: 
 }
 
 
 
 #start-btn {
   font-size: 15px;
-  width: 125px;
+  width: 150px;
 }
 
 #reset-btn {
-  font-size: 20px;
+  font-size: 15px;
   width: 150px;
 }
 
 
 #score-btn{
-  font-size:20px;
-  width: 200px;
+  font-size:15px;
+  width: 150px;
 }
