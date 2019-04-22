@@ -12,4 +12,8 @@
   
   We are gonna continue to work on this stuff
   
+ ## April 22
+  - Continued to work on HTML, JS, and CSS.
+  - We struggled with building the board and coding the JS
+  - Next class we should be close to getting a working code.
   
