@@ -18,11 +18,11 @@ Array.prototype.shuffle = function() {
     return input;
 }
  
-var tempArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-tempArray.shuffle();
+var cardValues = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
+cardValues.shuffle();
  
-// and the result is...
-alert(tempArray);       
+       
+
 function newBoard() {
 	tilesFlipped = 0;
 	cardValues.shuffle();
