@@ -6,3 +6,10 @@ Today my group and I started the foundation of our program.
   - We created a shared repl.it document where we could all work on our project at the same time
   - We put basic styling on the components of our game
   - Next time we will start getting into the actual coding of the game itself
+  
+## 4/22/19
+- Today my group and I assigned values to the cards in our matching game and made the cards "flip" when we clicked them.
+- We struggled working in repl.it and decided to switch over to sublime text which seems to be going better. We also struggled importing other languages/packages like lodash.
+- Next class we will work on the shuffle/randomize function 
+
+
