@@ -34,3 +34,13 @@ function flip(cardId){
   card.innerText = value;
  
 }
+let count = -1
+
+function flipBack() {
+
+}
+
+function moveCounter(){    
+    moves++;    
+    counter.innerHTML = moves;
+}
