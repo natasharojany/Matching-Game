@@ -9,7 +9,7 @@
  
 - [ ] 4:2 - A player should be able to keep a score so that they can show their friends how good they are
  
-- [ ] 5:3 - A player should be timed on the game so that the game is difficult
+- [X] 5:3 - A player should be timed on the game so that the game is difficult
  
 - [ ] 6:2 - A player’s clicks should be counted so that they can try to beat their best amount
  
