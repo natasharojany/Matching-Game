@@ -19,6 +19,7 @@ function flip(cardId){
   card.innerText = value;
  
 }
+<<<<<<< HEAD
 
 function timer(){
     var sec = 60;
@@ -30,3 +31,15 @@ function timer(){
         }
     }, 1000);
 }
+=======
+let count = -1
+
+function flipBack() {
+
+}
+
+function moveCounter(){    
+    moves++;    
+    counter.innerHTML = moves;
+}
+>>>>>>> 48f031c52bd1d0191885228bc3b02c88b966053f
