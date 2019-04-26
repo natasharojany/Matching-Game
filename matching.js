@@ -45,9 +45,19 @@ function flip(cardId){
  
 }
 
+let moves = 0;
+let counter = document.querySelector(."moves");
+
 function startGame(){
 	showAllCards();
 	document.getElementById('start-btn').innerHTML = true
+  moves = 0;
+  counter.innerHTML
+}
+
+function moveCounter(){
+  moves++;
+  counter.innerHTML = moves;
 }
 
 
@@ -75,7 +85,7 @@ function timer(){
 
 
 
-let count = -1
+
 
 
 function flipBack(cardId) {
@@ -83,9 +93,7 @@ function flipBack(cardId) {
 }
 
 
-function moveCounter(){    
- 
-}
+
 
 
 
