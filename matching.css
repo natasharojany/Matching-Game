@@ -1,22 +1,26 @@
 button {
   height: 40px;
-  background-image: 
+  background-image:
+  color:yellow; 
 }
 
 
 
 #start-btn {
+color:pink;
   font-size: 15px;
   width: 150px;
 }
 
 #reset-btn {
+	color:pink;
   font-size: 15px;
   width: 150px;
 }
 
 
 #score-btn{
+	color:pink;
   font-size:15px;
   width: 150px;
 }
