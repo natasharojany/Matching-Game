@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
                 
 
 class Matching {
@@ -15,12 +17,13 @@ var memoryValues = [];
 var memoryTileIds = [];
 var tilesFlipped = 0;
    
+>>>>>>> c7f892cd1000cd91e06d2e41f355850b1bcaa506
 
 function newBoard() {
-	tilesFlipped = 0;
-	}
+  tilesFlipped = 0;
+  }
 
-let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
+let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K']
 
 
 function shuffle(array) {
@@ -28,16 +31,14 @@ function shuffle(array) {
 }
 
 function showAllCards(){
-	for (var i = 0; i > 21; i++) {
-		card = document.querySelector("#card" + i);
-		card.innerText = arr[i];
-	}
+  for (var i = 0; i > 21; i++) {
+    card = document.querySelector("#card" + i);
+    card.innerText = arr[i];
+  }
 }
 
 
 function flip(cardId){
-  // value = shuffle(arr);
-
   console.log(cardId);
   card = document.querySelector("#card" + cardId);
   card.innerText = arr[cardId]; 
@@ -47,6 +48,13 @@ let moves = 0;
 let counter = document.querySelector(."moves");
 
 function startGame(){
+<<<<<<< HEAD
+  shuffle(arr);
+  showAllCards();
+}
+
+
+=======
 	shuffle(arr);
 	showAllCards();
 
@@ -72,6 +80,7 @@ function moveCounter(){
 let count = -1
 
 
+>>>>>>> c7f892cd1000cd91e06d2e41f355850b1bcaa506
 function timer(){
     var sec = 60;
     var timer = setInterval(function(){
