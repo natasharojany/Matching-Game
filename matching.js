@@ -9,23 +9,17 @@ class Matching {
     	return this;
     }
 }
-=======
+
 const cardValues = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
 
 var memoryValues = [];
 var memoryTileIds = [];
 var tilesFlipped = 0;
-
-function shuffle() {
-	cardValues = Collections.shuffle(cardValues)
-}       
+   
 
 function newBoard() {
 	tilesFlipped = 0;
-
-	cardValues.shuffle();
-
->>>>>>> 217480e3f8d95241b1abcaba2a1b6b315b3d9314
+	
 
 let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
 
@@ -51,9 +45,16 @@ function startGame(){
 
 
 
-<<<<<<< HEAD
+function timer(){
+    var sec = 60;
+    var timer = setInterval(function(){
+        document.getElementById('safeTimerDisplay').innerHTML='00:'+sec;
+        sec--;
+        if (sec < 0) {
+            clearInterval(timer);
+        }
+    }, 1000);
+}
 
-=======
->>>>>>> 217480e3f8d95241b1abcaba2a1b6b315b3d9314
 
 
