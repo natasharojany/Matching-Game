@@ -1,3 +1,4 @@
+var { Timer } = require('lib/easytimer/dist/easytimer.min.js');                
 
 class Matching {
 	constructor() {
@@ -9,8 +10,6 @@ class Matching {
     	return this;
     }
 }
-
-const cardValues = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
 
 var memoryValues = [];
 var memoryTileIds = [];
@@ -29,7 +28,6 @@ function shuffle(array) {
 }
 
 function showAllCards(){
-
 	for (var i = 0; i > 21; i++) {
 		card = document.querySelector("#card" + i);
 		card.innerText = arr[i];
@@ -38,19 +36,22 @@ function showAllCards(){
 
 
 function flip(cardId){
-  value = shuffle(arr);
+  // value = shuffle(arr);
+
+  console.log(cardId);
   card = document.querySelector("#card" + cardId);
-  card.innerText = value;
-  
- 
+  card.innerText = arr[cardId]; 
 }
 
 let moves = 0;
 let counter = document.querySelector(."moves");
 
 function startGame(){
+	shuffle(arr);
 	showAllCards();
+
 	document.getElementById('start-btn').innerHTML = true
+
   moves = 0;
   counter.innerHTML
 }
@@ -61,14 +62,11 @@ function moveCounter(){
 }
 
 
+	flip();
+  timer();
 
-
-{
-function shuffle(array)
-let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K', 'L', 'L', 'M', 'M', 'N', 'N', 'O', 'O', 'P', 'P']
-  shuffle(arr);
-  arr = ['K', 'L','C','A', 'H', 'L', 'M', 'M', 'N', 'E', 'F', 'N', 'A', 'B',  'C', 'D', 'D', 'E',  'F', 'G', 'O', 'P','B','H', 'I', 'J', 'K', 'P', 'I', 'J','G','O']
 }
+
 
 
 
@@ -95,5 +93,6 @@ function flipBack(cardId) {
 
 
 
+                
 
 
