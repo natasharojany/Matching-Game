@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-                
-
 class Matching {
 	constructor() {
 		this.locked = false;
@@ -17,7 +13,7 @@ var memoryValues = [];
 var memoryTileIds = [];
 var tilesFlipped = 0;
    
->>>>>>> c7f892cd1000cd91e06d2e41f355850b1bcaa506
+
 
 function newBoard() {
   tilesFlipped = 0;
@@ -45,42 +41,22 @@ function flip(cardId){
 }
 
 let moves = 0;
-let counter = document.querySelector(."moves");
+let counter = document.querySelector("moves");
 
 function startGame(){
-<<<<<<< HEAD
   shuffle(arr);
   showAllCards();
 }
-
-
-=======
-	shuffle(arr);
-	showAllCards();
-
-	document.getElementById('start-btn').innerHTML = true
-
-  moves = 0;
-  counter.innerHTML
-}
-
 function moveCounter(){
   moves++;
   counter.innerHTML = moves;
 }
 
 
-	flip();
-  timer();
-
-}
-
 
 
 let count = -1
 
-
->>>>>>> c7f892cd1000cd91e06d2e41f355850b1bcaa506
 function timer(){
     var sec = 60;
     var timer = setInterval(function(){
