@@ -15,3 +15,8 @@
 - We started a new function that will shuffle the cards
 - We tried to install lodash
 - Next class we will work on shuffling the cards again
+
+## 4/25/19
+- worked on shuffeling the tiles 
+- will continue to try to fix this 
+- added a timer

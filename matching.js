@@ -7,9 +7,14 @@ var tilesFlipped = 0;
 function shuffle() {
 	cardValues = Collections.shuffle(cardValues)
 }       
-newBoard()
+
 function newBoard() {
 	tilesFlipped = 0;
+
+	cardValues.shuffle();
+
+
+
 
 	shuffle();
 
@@ -23,6 +28,15 @@ function flip(cardId){
   card.innerText = value;
  
 }
+
+// let count = -1
+
+function startGame(){
+	document.getElementById('start-btn');
+	flip(cardId);
+}
+
+
 
 
 
@@ -39,11 +53,16 @@ function timer(){
 
 let count = -1
 
-function flipBack() {
 
+function flipBack() {
+  value = 0;
+  card = document.querySelector("#card" + cardId);
+  card.innerText = value;
 }
+
 
 function moveCounter(){    
     moves++;    
     counter.innerHTML = moves;
 }
+
