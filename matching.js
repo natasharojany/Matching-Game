@@ -45,8 +45,6 @@ let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G',
 }
 
 
-
-
 function timer(){
     var sec = 60;
     var timer = setInterval(function(){
@@ -61,15 +59,12 @@ function timer(){
 let count = -1
 
 
-function flipBack() {
-  value = 0;
-  card = document.querySelector("#card" + cardId);
-  card.innerText = value;
+function flipBack(cardId) {
+  
 }
 
 
 function moveCounter(){    
-    moves++;    
-    counter.innerHTML = moves;
+ 
 }
 
