@@ -10,12 +10,11 @@ function shuffle() {
 newBoard()
 function newBoard() {
 	tilesFlipped = 0;
-<<<<<<< HEAD
+
 	shuffle();
 
-=======
 	shuffle()
->>>>>>> c69fc8d74a489de89123af1e945e34380382fcc0
+
 }
 
 function flip(cardId){
