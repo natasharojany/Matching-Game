@@ -1,3 +1,4 @@
+var { Timer } = require('lib/easytimer/dist/easytimer.min.js');                
 
 class Matching {
 	constructor() {
@@ -48,6 +49,9 @@ function flip(cardId){
 function startGame(){
 	showAllCards();
 	document.getElementById('start-btn').innerHTML = true
+
+	flip();
+  timer();
 }
 
 
@@ -87,5 +91,6 @@ function moveCounter(){
  
 }
 
+                
 
 
