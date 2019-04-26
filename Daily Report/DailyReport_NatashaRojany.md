@@ -22,6 +22,6 @@
 - added a timer
 
 ## 4/16/19
--worked on styling
--shuffled cards 
--added a timer
+- worked on styling
+- shuffled cards 
+- added a timer
