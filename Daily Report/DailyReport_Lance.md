@@ -17,3 +17,8 @@
   - We struggled with building the board and coding the JS
   - Next class we should be close to getting a working code.
   
+ ## April 25
+  - Conitnued to work on the code. Made a working timer.
+  - Struggled to "shuffle" the board.
+  - Hopefully by next class we will have gotten that done.
+  
