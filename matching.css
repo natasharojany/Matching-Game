@@ -4,6 +4,13 @@ h1{
 	font-size:30pt
 }
 
+h2{
+  ont-family: "Helvetica", serif;
+  color:red;
+  font-size:20pt
+}
+
+
 div{
 	color:red;
 	font-family: "Helvetica", serif;
@@ -14,9 +21,6 @@ button {
   width:90px;
   background-image:
   margin-bottom:15px;
-
-
-
 }
 
 
