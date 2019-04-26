@@ -13,3 +13,8 @@
 - Today Ethan and I worked on a function to flip the cards back over
 - It was hard because we didnt know how to do it, or how to call it
 - Next class we will try and figure it out!
+## 4/25/19
+- Today Ethan and I worked on adding a timer
+- It was hard to pair the cards together
+- Next class we will keep working on making the cards be in pairs
+
