@@ -10,12 +10,11 @@ function shuffle() {
 
 function newBoard() {
 	tilesFlipped = 0;
-<<<<<<< HEAD
+
 	shuffle();
 
-=======
 	shuffle()
->>>>>>> c69fc8d74a489de89123af1e945e34380382fcc0
+
 }
 
 function flip(cardId){
@@ -24,12 +23,12 @@ function flip(cardId){
   card.innerText = value;
  
 }
-<<<<<<< HEAD
+
 function startGame(){
 	document.getElementById('start-btn');
-	flip(cardId);
+	flip();
 }
-=======
+
 
 
 {
@@ -40,7 +39,6 @@ let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G',
 }
 
 
->>>>>>> 707fbbc6dc08acc42464141421601d3da7a1ca43
 
 function timer(){
     var sec = 60;
