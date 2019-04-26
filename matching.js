@@ -26,6 +26,9 @@ cardValues.shuffle();
 function newBoard() {
 	tilesFlipped = 0;
 	cardValues.shuffle();
+
+
+
 }
 
 function flip(cardId){
@@ -34,13 +37,11 @@ function flip(cardId){
   card.innerText = value;
  
 }
-let count = -1
+// let count = -1
 
 function flipBack() {
-
+  value = 0;
+  card = document.querySelector("#card" + cardId);
+  card.innerText = value;
 }
 
-function moveCounter(){    
-    moves++;    
-    counter.innerHTML = moves;
-}
