@@ -72,8 +72,7 @@ function timer(){
         }
     }, 1000);
 }
-<<<<<<< HEAD
-=======
+
 
 
 let count = -1
@@ -89,4 +88,4 @@ function moveCounter(){
 }
 
 
->>>>>>> 74061a3c8c5854bea25c868bc5de3a5f98097a3c
+
