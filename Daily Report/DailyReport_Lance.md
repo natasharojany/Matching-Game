@@ -27,3 +27,7 @@
   - Struggled with getting the array to shuffle.
   - Hopefully next class we will be able to limit the clicks somebody has.
   
+ ## April 30
+  - Worked on formatting and made a timer working.
+  - Struggling with locking the button after 2 moves/getting it correct
+  - Hopefully next class we will have the formatting done and maybe get started on the locking of buttons.
