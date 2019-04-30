@@ -3,13 +3,15 @@
    <link rel="stylesheet" type="text/css" href="./matching.css">
   <body>
     <center>
-      <h1><span >MATCHING GAME</span></h1>
+      <h1><span style="font-size:30pt;color: #87ffed;">MATCHING GAME</span></h1>
     </center>
     <div id="MatchingGame"> 
     <center> <button id="start-btn" onclick="startGame()">START GAME</button>
     <center> <button id="reset-btn" onclick="reset()"> RESET GAME </button>
     <center> <button id="score-btn" onclick="score()">GET YOUR SCORE </button>
-      <center><p class="moves">0</p></center>
+
+      
+      
       <center> <div id=“cards”>
       	<button class=“card” id="card0" onclick="flip(0)">
         	0
@@ -79,8 +81,12 @@
       </button>
 
       <div id="safeTimer">
-		
+		<h2>Timer</h2>
+		<p id="safeTimerDisplay">00:60</p>
 	  </div>
+
+    <center><p class="moves"> MOVES: 0</p></center>
+
     
     <div id="chronoExample">
     
@@ -159,7 +165,9 @@
   
 <body onload="countdown();"> 
     <div> 
-        Time Left : 
+
+        TIME LEFT: 
+
         <input id="minutes" type="text" style="width: 10px; 
              border: none; font-size: 16px;  
             font-weight: bold; color: black;"><font size="5"> : 
@@ -175,7 +183,7 @@
     </div>
 
     <script type="text/javascript" src="./matching.js">
-
+  
     	
     </script>
     </script>
