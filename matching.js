@@ -46,7 +46,7 @@ function flip(cardId){
 function startGame(){
 	shuffle(arr);
 	showAllCards();
-  countdown();
+  
 
 	document.getElementById('start-btn').innerHTML = true
 
