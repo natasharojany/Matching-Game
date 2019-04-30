@@ -44,8 +44,17 @@ let moves = 0;
 let counter = document.querySelector("moves");
 
 function startGame(){
+	shuffle(arr);
+	showAllCards();
+  countdown();
+
+	document.getElementById('start-btn').innerHTML = true
+
+  moves = 0;
+  counter.innerHTML
   shuffle(arr);
   showAllCards();
+
 }
 function moveCounter(){
   moves++;
