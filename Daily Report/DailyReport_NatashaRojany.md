@@ -20,3 +20,8 @@
 - worked on shuffeling the tiles 
 - will continue to try to fix this 
 - added a timer
+
+## 4/16/19
+- worked on styling
+- shuffled cards 
+- added a timer

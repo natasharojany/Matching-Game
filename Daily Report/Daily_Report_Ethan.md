@@ -17,4 +17,8 @@ Today my group and I started the foundation of our program.
 - We struggled with this a little but plan to work on it before next class
 - Next class we will finish this function and then probably work on a counter that counts the amount of tiles that you click.
 
-
+## 4/26/19
+- Today I worked on a move counter that counts the number of clicks. I got it to work but then I changed some stuff around and experience a bug. 
+- Over the weekend, I will work on fixing the bug and cleaning the code up
+- We made good progress today as each member in our group worked on our own things. 
+- We have yet been able to figure out how to add photos to the cards as well as make sure that the game knows when two cards that have been clicked are the same.

@@ -1,7 +1,7 @@
 # Matching-Game
 
 # Backlog
-- [ ] 1:2 - A player should be able to click two different squares to determine if they are matching
+- [X] 1:2 - A player should be able to click two different squares to determine if they are matching
  
 - [ ] 2:1 - A player should be to click on a square and lock it if correct 
  
