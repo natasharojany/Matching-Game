@@ -25,3 +25,9 @@
 - worked on styling
 - shuffled cards 
 - added a timer
+
+## 4/30/19
+- got the timer to start when start is pressed 
+- moves counted 
+- worked on sytling 
+- next class i will work on making it look like an actual board
