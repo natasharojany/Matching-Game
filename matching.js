@@ -66,7 +66,3 @@ function flipBack(cardId) {
 
 
 
-
-                
-
-
