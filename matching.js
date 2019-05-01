@@ -60,7 +60,6 @@ function flip(cardId){
   card = document.querySelector("#card" + cardId);
   card.innerText = arr[cardId]; 
   moveCounter();
-
 }
 
 
@@ -68,10 +67,8 @@ function startGame(){
 	shuffle(arr);
 	showAllCards();
   moves = 0;
-
-
-
 }
+
 
 function resetGame() {
   newBoard();
@@ -83,7 +80,6 @@ function resetGame() {
   document.innerHTML("counter").innerHTML = moves;
   document.innerHTML("minutes").innerHTML = 0;
   document.getElementById("seconds").innerHTML = 0;
-
 }
 
 let moves = 0;
