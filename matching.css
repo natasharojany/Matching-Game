@@ -17,12 +17,14 @@ div{
 }
 
 button {
-  height: 90px;
+  height: 105px;
   background-color:lightyellow;
-  width:90px;
+  width:105px;
   margin-left:10px;
   margin-right:10px;
-  margin-bottom:15px;
+  margin-bottom:10px;
+  margin-top: 10px;
+
 
 
 
@@ -53,6 +55,12 @@ color:green;
 }
 
 #board {
-  max-width: 600px;
+  max-width: 650px;
+  border-style: dotted;
+  border-color: pink;
+  border-radius: 15px;
+  border-width: 15px;
+
+
 }
 
