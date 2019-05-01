@@ -75,7 +75,11 @@ function startGame(){
 }
 
 function resetGame() {
-  moves == 0;
+  newBoard();
+  moves = 0;
+  flippedCards.length = 0;
+  document.getElementById('counter').innerHTML = moves;
+  shuffle()
 }
 
 let moves = 0;
