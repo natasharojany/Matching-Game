@@ -57,6 +57,10 @@ function startGame(){
 
 }
 
+function resetGame() {
+  moves == 0;
+}
+
 let moves = 0;
 function moveCounter() {
   moves++;
