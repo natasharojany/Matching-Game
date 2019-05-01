@@ -48,20 +48,20 @@ function flip(cardId){
     card.innerText = arr[cardId];
     flippedCards.push(cardId); 
   }
-  else if (first === second) {
+  else if (matches()) {
+    flippedCards = []
+  } else {
+    card = document.querySelector("#card" + flippedCards[0]);
+    card.innerText = "0";
+    card = document.querySelector("#card" + flippedCards[1]);
+    card.innerText = "0";
     flippedCards = []
   }
- 
- function flipback(){
-  flippedCards = []
- }
-
-  card = document.querySelector("#card" + cardId);
-  card.innerText = arr[cardId]; 
-  moveCounter();
-
 }
 
+function flipback(){
+  flippedCards = []
+ }
 
 function startGame(){
 	shuffle(arr);
