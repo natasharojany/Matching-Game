@@ -49,9 +49,12 @@ function flip(cardId){
     flippedCards.push(cardId); 
   }
   else if (first === second) {
-    
+    flippedCards = []
   }
  
+ function flipback(){
+  flippedCards = []
+ }
 
   card = document.querySelector("#card" + cardId);
   card.innerText = arr[cardId]; 
