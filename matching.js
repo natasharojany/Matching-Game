@@ -78,7 +78,18 @@ function startGame(){
 }
 
 function resetGame() {
-  moves == 0;
+
+  newBoard();
+  moves = 0;
+  flippedCards.length = 0;
+  document.getElementById('counter').innerHTML = moves;
+  shuffle()
+
+  moves = 0;
+  document.innerHTML("counter").innerHTML = moves;
+  document.getElementById("minutes").innerHTML = 0;
+  document.getElementById("seconds").innerHTML = 0;
+
 }
 
 let moves = 0;
@@ -98,6 +109,26 @@ function moveCounter() {
 
 function flipBack(cardId) {
   
+}
+
+var minutesLabel = document.getElementById("minutes");
+var secondsLabel = document.getElementById("seconds");
+var totalSeconds = 0;
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSeconds;
+  secondsLabel.innerHTML = pad(totalSeconds % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+}
+
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
 }
 
 
