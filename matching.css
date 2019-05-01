@@ -20,6 +20,7 @@ button {
   height: 105px;
   background-color:lightyellow;
   width:105px;
+  font-size:40pt;
   margin-left:10px;
   margin-right:10px;
   margin-bottom:10px;
@@ -49,7 +50,7 @@ color:green;
   font-size: 20px;
   width: 150px;
   height:50px;
-  margin-bottom:30px;
+  margin-bottom:50px;
   
 
 }

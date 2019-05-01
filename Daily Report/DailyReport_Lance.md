@@ -31,3 +31,8 @@
   - Worked on formatting and made a timer working.
   - Struggling with locking the button after 2 moves/getting it correct
   - Hopefully next class we will have the formatting done and maybe get started on the locking of buttons.
+  
+ ## May 1
+  - Worked on making the reset button, made a better timer
+  - Contiuned to struggle making the button lock after more than 2 clicks then resetting it.
+  - By next class we should have the reset button working, the timer working, the styling looking good, and the locking buttons.
