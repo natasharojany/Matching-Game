@@ -27,3 +27,8 @@ Today my group and I started the foundation of our program.
 - Today I finished the move counter and started to code the reset button.
 - For the reset button it was difficult to set the tiles back to their backs
 - However, the group has been making steady progress.
+
+## 5/1/19
+- I got the reset button to set the moves back to zero and the tiles back to their original positions
+- I am struggling with having the reset button set the timer back to zero
+- We have been making a lot of progress as a group, though.
