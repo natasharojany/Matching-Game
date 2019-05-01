@@ -48,9 +48,17 @@ function flip(cardId){
     card.innerText = arr[cardId];
     flippedCards.push(cardId); 
   }
-  else if (first === second) {
+  else if (matches()) {
+    flippedCards = []
+  } else {
+    card = document.querySelector("#card" + flippedCards[0]);
+    card.innerText = "0";
+    card = document.querySelector("#card" + flippedCards[1]);
+    card.innerText = "0";
     flippedCards = []
   }
+
+ 
  
  function flipback(){
   flippedCards = []
@@ -62,32 +70,29 @@ function flip(cardId){
 
 }
 
+function flipback(){
+  flippedCards = []
+ }
 
 function startGame(){
 	shuffle(arr);
 	showAllCards();
-  
-
-	document.getElementById('start-btn').innerHTML = true
-
   moves = 0;
-  counter.innerHTML
-  shuffle(arr);
-  showAllCards();
-
 }
 
+
 function resetGame() {
-
   newBoard();
-
   moves = 0;
   flippedCards.length = 0;
   document.getElementById('counter').innerHTML = moves;
   shuffle()
-
   moves = 0;
   document.innerHTML("counter").innerHTML = moves;
+
+  document.innerHTML("minutes").innerHTML = 0;
+  document.getElementById("seconds").innerHTML = 0;
+
 }
 
 let moves = 0;
