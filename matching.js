@@ -75,6 +75,13 @@ function startGame(){
 }
 
 function resetGame() {
+
+  newBoard();
+  moves = 0;
+  flippedCards.length = 0;
+  document.getElementById('counter').innerHTML = moves;
+  shuffle()
+
   moves = 0;
   document.innerHTML("counter").innerHTML = moves;
   document.getElementById("minutes").innerHTML = 0;
