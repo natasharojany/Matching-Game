@@ -15,6 +15,7 @@ var tilesFlipped = 0;
 var flippedCards = [];
 
 
+
 function newBoard() {
   tilesFlipped = 0;
   }
@@ -41,6 +42,7 @@ function matches(){
 
 function flip(cardId){
   console.log(cardId);
+
   if (flippedCards.length < 2) {
     card = document.querySelector("#card" + cardId);
     card.innerText = arr[cardId];
@@ -50,15 +52,18 @@ function flip(cardId){
     
   }
  
+
+  card = document.querySelector("#card" + cardId);
+  card.innerText = arr[cardId]; 
+  moveCounter();
+
 }
 
-let moves = 0;
-let counter = document.querySelector("moves");
 
 function startGame(){
 	shuffle(arr);
 	showAllCards();
-  countdown();
+  
 
 	document.getElementById('start-btn').innerHTML = true
 
@@ -68,15 +73,22 @@ function startGame(){
   showAllCards();
 
 }
-function moveCounter(){
+
+function resetGame() {
+  moves == 0;
+}
+
+let moves = 0;
+function moveCounter() {
   moves++;
-  counter.innerHTML = moves;
+  const moveCounter = document.getElementById('counter');
+  moveCounter.innerHTML = moves;
 }
 
 
 
 
-let count = -1
+
 
 
 
@@ -85,9 +97,5 @@ function flipBack(cardId) {
   
 }
 
-
-
-
-                
 
 
