@@ -67,9 +67,6 @@ function startGame(){
 	shuffle(arr);
 	showAllCards();
   
-
-	document.getElementById('start-btn').innerHTML = true
-
   moves = 0;
   counter.innerHTML
   shuffle(arr);
