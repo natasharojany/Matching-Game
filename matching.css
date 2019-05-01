@@ -7,7 +7,7 @@ h1{
 h2{
   font-family: "Helvetica", serif;
   color:red;
-  font-size:20pt
+  font-size:50pt;
 }
 
 
@@ -25,6 +25,8 @@ button {
   margin-right:10px;
   margin-bottom:10px;
   margin-top: 10px;
+  text-align: center;
+
 
 
 
@@ -61,6 +63,7 @@ color:green;
   border-color: pink;
   border-radius: 15px;
   border-width: 15px;
+  text-align: center;
 
 
 }
