@@ -21,3 +21,7 @@
 - Today I worked on making it so the user can only press two cards at a time
 - It was hard but Riley helped me to understand the progression of the features needed
 - Next class I will finish that because it is still not done
+## 5/1/19
+- Today I kept working on the matching part of the game
+- it was hard to make the correct ones stay and the wrong ones flip back
+- Next class ill continue to make sure there is no errors in my code
