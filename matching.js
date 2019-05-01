@@ -12,7 +12,7 @@ class Matching {
 var memoryValues = [];
 var memoryTileIds = [];
 var tilesFlipped = 0;
-   
+var flippedCards = [];
 
 
 
@@ -34,12 +34,29 @@ function showAllCards(){
   }
 }
 
+function matches(){
+  first = flippedCards[0];
+  second = flippedCards[1];
+  return arr[first] === arr[second]
+}
 
 function flip(cardId){
   console.log(cardId);
+
+  if (flippedCards.length < 2) {
+    card = document.querySelector("#card" + cardId);
+    card.innerText = arr[cardId];
+    flippedCards.push(cardId); 
+  }
+  else if (first === second) {
+    
+  }
+ 
+
   card = document.querySelector("#card" + cardId);
   card.innerText = arr[cardId]; 
   moveCounter();
+
 }
 
 

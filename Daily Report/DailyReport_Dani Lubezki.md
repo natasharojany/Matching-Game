@@ -17,4 +17,7 @@
 - Today Ethan and I worked on adding a timer
 - It was hard to pair the cards together
 - Next class we will keep working on making the cards be in pairs
-
+## 4/30/19
+- Today I worked on making it so the user can only press two cards at a time
+- It was hard but Riley helped me to understand the progression of the features needed
+- Next class I will finish that because it is still not done
