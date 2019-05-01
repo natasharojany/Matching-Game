@@ -25,6 +25,7 @@ button {
   margin-bottom:15px;
 
 
+
 }
 
 
@@ -49,5 +50,9 @@ color:green;
   margin-bottom:30px;
   
 
+}
+
+#board {
+  max-width: 60%
 }
 

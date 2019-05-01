@@ -15,7 +15,7 @@
 
 
       
-   
+   <div id = "board">
       <center> <div id=“cards”>
       	<button class=“card” id="card0" onclick="flip(0)">
         	0
@@ -77,15 +77,7 @@
       	<button class=“card” id="card19" onclick="flip(19)">
       		0
       	</button>
-      	<button class=“card” id="card20" onclick="flip(20)">
-      		0
-      	</button>
-      	<button class=“card” id="card21" onclick="flip(21)">
-      		0
-      	</button>
-
-
-
+      </div>
 
    
 
@@ -102,6 +94,7 @@
 </div>
 <html> 
   
+<<<<<<< HEAD
 
 <body> 
     <div> 
@@ -111,6 +104,34 @@
        <label id="minutes">00</label>:<label id="seconds">00</label>
     </div> 
 </body> 
+=======
+<head> 
+    <script> 
+var minutesLabel = document.getElementById("minutes");
+var secondsLabel = document.getElementById("seconds");
+var totalSeconds = 0;
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSeconds;
+  secondsLabel.innerHTML = pad(totalSeconds % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+}
+
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
+}
+    </script> 
+</head> 
+<!-- onload function is evoke when page is load --> 
+<!--countdown function is called when page is loaded --> 
+  
+>>>>>>> 01226c4dcc03e2aad893dc40a3b82d7e3cf66499
   
 </html> 
     
