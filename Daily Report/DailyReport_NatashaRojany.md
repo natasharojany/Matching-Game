@@ -32,6 +32,6 @@
 - worked on sytling 
 - next class i will work on making it look like an actual board
 
-## 4/30/19
+## 5/1/19
 - made the board look like an actual board 
 - worked on styling 
