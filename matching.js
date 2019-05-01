@@ -88,9 +88,6 @@ function resetGame() {
 
   moves = 0;
   document.innerHTML("counter").innerHTML = moves;
-  document.getElementById("minutes").innerHTML = 0;
-  document.getElementById("seconds").innerHTML = 0;
-
 }
 
 let moves = 0;
@@ -101,16 +98,6 @@ function moveCounter() {
 }
 
 
-
-
-
-
-
-
-
-function flipBack(cardId) {
-  
-}
 
 function timer(){
   var minutesLabel = document.getElementById("minutes");
