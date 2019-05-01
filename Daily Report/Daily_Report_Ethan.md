@@ -22,3 +22,8 @@ Today my group and I started the foundation of our program.
 - Over the weekend, I will work on fixing the bug and cleaning the code up
 - We made good progress today as each member in our group worked on our own things. 
 - We have yet been able to figure out how to add photos to the cards as well as make sure that the game knows when two cards that have been clicked are the same.
+
+## 4/30/19
+- Today I finished the move counter and started to code the reset button.
+- For the reset button it was difficult to set the tiles back to their backs
+- However, the group has been making steady progress.
