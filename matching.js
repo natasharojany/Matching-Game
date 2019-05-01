@@ -75,7 +75,9 @@ function startGame(){
 }
 
 function resetGame() {
-  moves == 0;
+  moves = 0;
+  document.innerHTML("counter").innerHTML = moves;
+
 }
 
 let moves = 0;
@@ -95,6 +97,26 @@ function moveCounter() {
 
 function flipBack(cardId) {
   
+}
+
+var minutesLabel = document.getElementById("minutes");
+var secondsLabel = document.getElementById("seconds");
+var totalSeconds = 0;
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSeconds;
+  secondsLabel.innerHTML = pad(totalSeconds % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+}
+
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
 }
 
 
