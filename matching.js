@@ -67,11 +67,7 @@ function flip(cardId){
   card = document.querySelector("#card" + cardId);
   card.innerText = arr[cardId]; 
   moveCounter();
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 426d385d057e58689a6448117cd460779f3913d2
 }
 
 function flipback(){
