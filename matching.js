@@ -43,10 +43,9 @@ function matches(){
 function flip(cardId){
   console.log(cardId);
   if (flippedCards.length < 2) {
-    flippedCards.push(cardId); 
     card = document.querySelector("#card" + cardId);
-    card.innerText = arr[cardId]; 
-    moveCounter();
+    card.innerText = arr[cardId];
+    flippedCards.push(cardId); 
   }
   else if (matches()) {
     flippedCards = []
@@ -62,6 +61,9 @@ function flip(cardId){
  function flipback(){
   flippedCards = []
  }
+  card = document.querySelector("#card" + cardId);
+  card.innerText = arr[cardId]; 
+  moveCounter();
 
 
 function flipback(){
@@ -103,11 +105,13 @@ function timer(){
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
   setInterval(setTime, 1000);
+
   function setTime() {
     ++totalSeconds;
     secondsLabel.innerHTML = pad(totalSeconds % 60);
     minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
   }
+
   function pad(val) {
     var valString = val + "";
     if (valString.length < 2) {
@@ -117,7 +121,6 @@ function timer(){
     }
   }
 }
-
 
 
 
