@@ -44,9 +44,10 @@ function flip(cardId){
   console.log(cardId);
 
   if (flippedCards.length < 2) {
-    card = document.querySelector("#card" + cardId);
-    card.innerText = arr[cardId];
     flippedCards.push(cardId); 
+    card = document.querySelector("#card" + cardId);
+    card.innerText = arr[cardId]; 
+    moveCounter();
   }
   else if (matches()) {
     flippedCards = []
@@ -63,9 +64,7 @@ function flip(cardId){
   flippedCards = []
  }
 
-  card = document.querySelector("#card" + cardId);
-  card.innerText = arr[cardId]; 
-  moveCounter();
+  
 
 }
 
