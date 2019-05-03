@@ -42,7 +42,6 @@ function matches(){
 
 function flip(cardId){
   console.log(cardId);
-
   if (flippedCards.length < 2) {
     card = document.querySelector("#card" + cardId);
     card.innerText = arr[cardId];
@@ -57,7 +56,7 @@ function flip(cardId){
     card.innerText = "0";
     flippedCards = []
   }
-
+}
  
  function flipback(){
   flippedCards = []
@@ -108,13 +107,11 @@ function timer(){
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
   setInterval(setTime, 1000);
-
   function setTime() {
     ++totalSeconds;
     secondsLabel.innerHTML = pad(totalSeconds % 60);
     minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
   }
-
   function pad(val) {
     var valString = val + "";
     if (valString.length < 2) {
@@ -123,7 +120,6 @@ function timer(){
       return valString;
     }
   }
-
 }
 
 
