@@ -36,3 +36,7 @@
   - Worked on making the reset button, made a better timer
   - Contiuned to struggle making the button lock after more than 2 clicks then resetting it.
   - By next class we should have the reset button working, the timer working, the styling looking good, and the locking buttons.
+  ## May 3
+  - Fixed the timer and the counter
+  - Continued to struggle with getting the timer to reset when the reset button is pressed.
+  - Hopefully by next class we will have a completely working game.
