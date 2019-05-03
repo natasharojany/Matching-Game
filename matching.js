@@ -63,9 +63,6 @@ function flip(cardId){
   flippedCards = []
  }
 
-  
-
-}
 
 function flipback(){
   flippedCards = []
