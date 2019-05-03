@@ -1,11 +1,11 @@
 class Matching {
-	constructor() {
-		this.locked = false;
-    	
-	}
-	toggleLock() {
-    	this.locked = !this.locked;
-    	return this;
+  constructor() {
+    this.locked = false;
+      
+  }
+  toggleLock() {
+      this.locked = !this.locked;
+      return this;
     }
 }
 
@@ -20,7 +20,7 @@ function newBoard() {
   tilesFlipped = 0;
   }
 
-let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J', 'K', 'K']
+let arr = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H', 'I', 'I', 'J', 'J',]
 
 
 function shuffle(array) {
@@ -46,6 +46,7 @@ function flip(cardId){
     card = document.querySelector("#card" + cardId);
     card.innerText = arr[cardId];
     flippedCards.push(cardId); 
+    moveCounter()
   }
   else if (matches()) {
     flippedCards = []
@@ -61,9 +62,7 @@ function flip(cardId){
  function flipback(){
   flippedCards = []
  }
-  card = document.querySelector("#card" + cardId);
-  card.innerText = arr[cardId]; 
-  moveCounter();
+  
 
 
 function flipback(){
@@ -71,29 +70,27 @@ function flipback(){
  }
 
 function startGame(){
-	shuffle(arr);
-	showAllCards();
-  moves = 0;
+  shuffle(arr);
+  showAllCards();
 }
 
 
 function resetGame() {
-  newBoard();
   moves = 0;
+  newBoard();
   flippedCards.length = 0;
   document.getElementById('counter').innerHTML = moves;
-  shuffle()
-  moves = 0;
-  document.innerHTML("counter").innerHTML = moves;
 
-  document.innerHTML("minutes").innerHTML = 0;
-  document.getElementById("seconds").innerHTML = 0;
+  document.getElementById("minutes").innerHTML = '00';
+  document.getElementById("seconds").innerHTML = '00';
 
 }
 
-let moves = 0;
+var moves = 0;
 function moveCounter() {
-  moves++;
+  console.log('counting')
+  console.log(moves)
+  moves+= 1;
   const moveCounter = document.getElementById('counter');
   moveCounter.innerHTML = moves;
 }
@@ -121,6 +118,4 @@ function timer(){
     }
   }
 }
-
-
 
