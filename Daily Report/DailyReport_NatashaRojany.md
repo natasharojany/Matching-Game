@@ -35,3 +35,7 @@
 ## 5/1/19
 - made the board look like an actual board 
 - worked on styling 
+
+## 5/3/19
+- today I continued to work on styling 
+- we also got the move counter to work again
