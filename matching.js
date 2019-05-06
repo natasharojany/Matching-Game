@@ -61,10 +61,9 @@ function startGame(){
 
 function resetGame() {
   moves = 0;
-  newBoard();
+  startGame();
   flippedCards.length = 0;
   document.getElementById('counter').innerHTML = moves;
-
   document.getElementById("minutes").innerHTML = '00';
   document.getElementById("seconds").innerHTML = '00';
   clearInterval(timerIndex);
