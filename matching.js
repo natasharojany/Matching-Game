@@ -77,6 +77,9 @@ function resetGame() {
   moves = 0;
   newBoard();
   flippedCards.length = 0;
+  document.querySelectorAll('.card').forEach((node) => {
+    node.innerHTML = 0;
+  })
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
   document.getElementById("seconds").innerHTML = '00';
