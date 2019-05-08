@@ -16,6 +16,7 @@ var flippedCards = [];
 
 
 
+
 function newBoard() {
   tilesFlipped = 0;
   }
@@ -34,6 +35,8 @@ function showAllCards(){
   }
 }
 
+var numMatches = 0
+
 function matches(){
   first = flippedCards[0];
   second = flippedCards[1];
@@ -50,6 +53,7 @@ function flip(cardId){
   }
   else if (matches()) {
     flippedCards = []
+    numMatches++;
   } else {
     card = document.querySelector("#card" + flippedCards[0]);
     card.innerText = "0";
@@ -67,6 +71,13 @@ function flip(cardId){
 
 function flipback(){
   flippedCards = []
+ }
+
+
+ function gameOver(){
+  if (numMatches === arr.length/2){
+    text("You matched all the cards in" + moves "tries");
+  }
  }
 
 function startGame(){
@@ -93,6 +104,7 @@ function moveCounter() {
   moves+= 1;
   const moveCounter = document.getElementById('counter');
   moveCounter.innerHTML = moves;
+  return moves;
 }
 
 
@@ -102,6 +114,7 @@ function timer(){
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
   setInterval(setTime, 1000);
+
 
   function setTime() {
     ++totalSeconds;
