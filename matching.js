@@ -1,13 +1,3 @@
-class Matching {
-  constructor() {
-    this.locked = false;
-      
-  }
-  toggleLock() {
-      this.locked = !this.locked;
-      return this;
-    }
-}
 
 var memoryValues = [];
 var memoryTileIds = [];
@@ -69,16 +59,17 @@ function flip(cardId){
   
 
 
+
 function flipback(){
   flippedCards = []
  }
 
 
- function gameOver(){
-  if (numMatches === arr.length/2){
-    text("You matched all the cards in" + moves "tries");
-  }
- }
+ // function gameOver(){
+ //  if (numMatches === arr.length/2){
+ //    text("You matched all the cards in" + moves "tries");
+ //  }
+ // }
 
 function startGame(){
   shuffle(arr);
@@ -88,12 +79,12 @@ function startGame(){
 
 function resetGame() {
   moves = 0;
-  newBoard();
+  startGame();
   flippedCards.length = 0;
   document.getElementById('counter').innerHTML = moves;
-
   document.getElementById("minutes").innerHTML = '00';
   document.getElementById("seconds").innerHTML = '00';
+  clearInterval(timerIndex);
 
 }
 
@@ -107,13 +98,13 @@ function moveCounter() {
   return moves;
 }
 
-
+var timerIndex =  null;
 
 function timer(){
   var minutesLabel = document.getElementById("minutes");
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
-  setInterval(setTime, 1000);
+  timerIndex = setInterval(setTime, 1000);
 
 
   function setTime() {
