@@ -65,11 +65,7 @@ function flipback(){
  }
 
 
- // function gameOver(){
- //  if (numMatches === arr.length/2){
- //    text("You matched all the cards in" + moves "tries");
- //  }
- // }
+
 
 function startGame(){
   shuffle(arr);
@@ -79,7 +75,7 @@ function startGame(){
 
 function resetGame() {
   moves = 0;
-  startGame();
+  newBoard();
   flippedCards.length = 0;
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
@@ -123,3 +119,8 @@ function timer(){
   }
 }
 
+ // function gameOver(){
+ //  if (numMatches === arr.length/2){
+ //    text("You matched all the cards in" + moves "tries");
+ //  }
+ // }
