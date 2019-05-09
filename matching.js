@@ -1,18 +1,9 @@
-class Matching {
-  constructor() {
-    this.locked = false;
-      
-  }
-  toggleLock() {
-      this.locked = !this.locked;
-      return this;
-    }
-}
 
 var memoryValues = [];
 var memoryTileIds = [];
 var tilesFlipped = 0;
 var flippedCards = [];
+
 
 
 
@@ -34,6 +25,8 @@ function showAllCards(){
   }
 }
 
+var numMatches = 0
+
 function matches(){
   first = flippedCards[0];
   second = flippedCards[1];
@@ -50,6 +43,7 @@ function flip(cardId){
   }
   else if (matches()) {
     flippedCards = []
+    numMatches++;
   } else {
     card = document.querySelector("#card" + flippedCards[0]);
     card.innerText = "0";
@@ -65,9 +59,13 @@ function flip(cardId){
   
 
 
+
 function flipback(){
   flippedCards = []
  }
+
+
+
 
 function startGame(){
   shuffle(arr);
@@ -79,10 +77,13 @@ function resetGame() {
   moves = 0;
   newBoard();
   flippedCards.length = 0;
+  document.querySelectorAll('.card').forEach((node) => {
+    node.innerHTML = 0;
+  })
   document.getElementById('counter').innerHTML = moves;
-
   document.getElementById("minutes").innerHTML = '00';
   document.getElementById("seconds").innerHTML = '00';
+  clearInterval(timerIndex);
 
 }
 
@@ -93,15 +94,17 @@ function moveCounter() {
   moves+= 1;
   const moveCounter = document.getElementById('counter');
   moveCounter.innerHTML = moves;
+  return moves;
 }
 
-
+var timerIndex =  null;
 
 function timer(){
   var minutesLabel = document.getElementById("minutes");
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
-  setInterval(setTime, 1000);
+  timerIndex = setInterval(setTime, 1000);
+
 
   function setTime() {
     ++totalSeconds;
@@ -119,3 +122,8 @@ function timer(){
   }
 }
 
+ // function gameOver(){
+ //  if (numMatches === arr.length/2){
+ //    text("You matched all the cards in" + moves "tries");
+ //  }
+ // }

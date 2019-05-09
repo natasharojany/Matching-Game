@@ -33,7 +33,14 @@ Today my group and I started the foundation of our program.
 - I am struggling with having the reset button set the timer back to zero
 - We have been making a lot of progress as a group, though.
 
+
 ## 5/3/19
 - Unfortunately, my computer broke today so I worked with Dani on fixing the cards in order to only allow 2 cards to flip.
 - We were also still struggling with the reset button as we could not get it to reset the timer back to 0.
 - Next class we will try to add images to the cards or just colors on the backs of them.
+
+## 5/8/19
+- Today Lance and I worked out the final bugs with the reset button and got it to reset the board as well as the moves and the time.
+- The challenge that we faced was a type error where we had the wrong type of quotation marks.
+- Our game is pretty much finished, however we are going to try to implement a win/game over message.
+
