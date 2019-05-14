@@ -61,11 +61,7 @@ function flip(cardId){
 
 
 
- // function gameOver(){
- //  if (numMatches === arr.length/2){
- //    text("You matched all the cards in" + moves "tries");
- //  }
- // }
+
 
 function startGame(){
   shuffle(arr);
@@ -122,3 +118,8 @@ function timer(){
   }
 }
 
+ // function gameOver(){
+ //  if (numMatches === arr.length/2){
+ //    text("You matched all the cards in" + moves "tries");
+ //  }
+ // }

@@ -25,3 +25,7 @@
 - Today I kept working on the matching part of the game
 - it was hard to make the correct ones stay and the wrong ones flip back
 - Next class ill continue to make sure there is no errors in my code
+## 5/3/19
+- Today Ethan and I fixed the game because more than 2 cards were turning at once
+- It was not too hard, we just had to find the bug
+- Next class, we want to do some styling
