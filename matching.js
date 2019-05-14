@@ -51,6 +51,8 @@ function flip(cardId){
     card.innerText = "0";
     flippedCards = []
   }
+
+
 }
  
  function flipback(){
@@ -119,8 +121,8 @@ function timer(){
   }
 }
 
- // function gameOver(){
- //  if (flippedCards.length === arr.length/2){
- //    alert("You matched all the cards in" + moves "tries");
- //  }
+ //  function gameOver(){
+ //    if (flippedCards.length === arr.length/2){
+ //      alert("You matched all the cards in" + moves "tries");
+ //    }
  // }
