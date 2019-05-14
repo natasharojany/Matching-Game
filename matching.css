@@ -61,8 +61,8 @@ color:green;
 
 #board {
   max-width: 650px;
-  border-style: dotted;
-  border-color: pink;
+  border-style: double;
+  border-color: lightblue;
   border-radius: 15px;
   border-width: 15px;
   text-align: center;
