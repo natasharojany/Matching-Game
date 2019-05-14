@@ -44,3 +44,9 @@
 - Today we did a presentation and then we worked on fixing our restart button
 - We had to figure out why it wasnt working, we found out it was because of the quotes
 - Next class we will do more styling
+
+## 5/14/19
+- worked on board style
+- got it all to fit on one page 
+- fixed reset button
+
