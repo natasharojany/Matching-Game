@@ -40,3 +40,8 @@
   - Fixed the timer and the counter
   - Continued to struggle with getting the timer to reset when the reset button is pressed.
   - Hopefully by next class we will have a completely working game.
+  
+  ## May 8
+  - Fixed the reset button, got it to reset the board
+  - Struggled with getting the board and everything to completely reset.
+  - Our game is essentially done and completely fumctional so not planning to add much more, if anything.

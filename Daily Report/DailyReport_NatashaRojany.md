@@ -39,3 +39,8 @@
 ## 5/3/19
 - today I continued to work on styling 
 - we also got the move counter to work again
+
+## 5/8/19
+- Today we did a presentation and then we worked on fixing our restart button
+- We had to figure out why it wasnt working, we found out it was because of the quotes
+- Next class we will do more styling
