@@ -60,10 +60,6 @@ function flip(cardId){
 
 
 
-function flipback(){
-  flippedCards = []
- }
-
 
 
 
@@ -78,7 +74,7 @@ function resetGame() {
   newBoard();
   flippedCards.length = 0;
   document.querySelectorAll('.card').forEach((node) => {
-    node.innerHTML = 0;
+    node.innerHTML = "0";
   })
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
