@@ -66,6 +66,7 @@ function flip(cardId){
 function startGame(){
   shuffle(arr);
   showAllCards();
+
 }
 
 
@@ -119,7 +120,7 @@ function timer(){
 }
 
  // function gameOver(){
- //  if (numMatches === arr.length/2){
- //    text("You matched all the cards in" + moves "tries");
+ //  if (flippedCards.length === arr.length/2){
+ //    alert("You matched all the cards in" + moves "tries");
  //  }
  // }
