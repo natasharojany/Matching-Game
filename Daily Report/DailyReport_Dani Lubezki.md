@@ -41,3 +41,7 @@
 - Today we did a presentation and then we worked on fixing our restart button
 - We had to figure out why it wasnt working, we found out it was because of the quotes
 - Next class we will do more styling
+
+## 5/14/19
+- today we worked a lot on styling
+- we redesigned the whole games look
