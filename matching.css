@@ -1,10 +1,7 @@
 h1{
-
-	font-family: "Impact";
-	color:navy;
-	font-size:40pt
-
-
+  font-family: "Impact";
+  color:navy;
+  font-size:40pt
 }
 
 h2{
@@ -12,7 +9,6 @@ h2{
   color:red;
   font-size:50pt;
 }
-
 
 div{
   color:red;
@@ -30,35 +26,26 @@ button {
   margin-top: 10px;
   font-size: 45pt;
   color:navy;
-
-
 }
 
-
 #start-btn {
-
-font-family: "Helvetica", serif;
-color:navy;
- background-color:#d8fbff;
+  font-family: "Helvetica", serif;
+  color:navy;
+  background-color:#d8fbff;
   font-size: 20px;
   width: 150px;
   height:50px;
   margin-bottom:10px;
-
 }
 
 #reset-btn {
-
-	font-family: "Helvetica", serif;
-	color:navy;
-	background-color:#d8fbff;
- 
+  font-family: "Helvetica", serif;
+  color:navy;
+  background-color:#d8fbff; 
   font-size: 20px;
   width: 150px;
   height:50px;
   margin-bottom:30px;
-  
-
 }
 
 #board {
@@ -67,8 +54,6 @@ color:navy;
   border-color: gray;
   border-radius: 15px;
   border-width: 15px;
-
-
 }
 
 

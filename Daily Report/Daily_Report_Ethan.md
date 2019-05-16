@@ -44,3 +44,7 @@ Today my group and I started the foundation of our program.
 - The challenge that we faced was a type error where we had the wrong type of quotation marks.
 - Our game is pretty much finished, however we are going to try to implement a win/game over message.
 
+## 5/14/19
+- Today I continued working on a win message that prints how many clicks it took for you to complete the game as well as the amount of time it took
+- I did some research but wasn't able to find anything suitable for our game's case.
+- I will continue to work on this next class

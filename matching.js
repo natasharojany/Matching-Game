@@ -1,11 +1,5 @@
-
-var memoryValues = [];
-var memoryTileIds = [];
 var tilesFlipped = 0;
 var flippedCards = [];
-
-
-
 
 function newBoard() {
   tilesFlipped = 0;
@@ -51,26 +45,17 @@ function flip(cardId){
     card.innerText = "0";
     flippedCards = []
   }
-
-
 }
  
  function flipback(){
   flippedCards = []
  }
-  
-
-
-
-
 
 
 function startGame(){
   shuffle(arr);
   showAllCards();
-
 }
-
 
 function resetGame() {
   moves = 0;
@@ -97,13 +82,11 @@ function moveCounter() {
 }
 
 var timerIndex =  null;
-
 function timer(){
   var minutesLabel = document.getElementById("minutes");
   var secondsLabel = document.getElementById("seconds");
   var totalSeconds = 0;
   timerIndex = setInterval(setTime, 1000);
-
 
   function setTime() {
     ++totalSeconds;
