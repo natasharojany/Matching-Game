@@ -45,3 +45,13 @@
   - Fixed the reset button, got it to reset the board
   - Struggled with getting the board and everything to completely reset.
   - Our game is essentially done and completely fumctional so not planning to add much more, if anything.
+  
+  ## May 14
+  - Worked on formatting today. The game is fully fumctional, just could add a few things.
+  - DIdn't really struggle with anything today
+  - Hopefully we will start on making a win alert or something once you beat the game.
+
+  ## May 16
+  - Worked on getting a message to play once you win the game
+  - Struggled with ^^
+  - After this, there isn't much more we can do.
