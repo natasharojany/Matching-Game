@@ -50,3 +50,10 @@
 - got it all to fit on one page 
 - fixed reset button
 
+## 5/16/19
+- today we started to add a pop up at the end 
+
+## 5/17/19
+- today we got the top of the cards to be blank 
+- next we will try to make the letters a picture or soemthing
+
