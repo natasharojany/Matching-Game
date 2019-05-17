@@ -45,3 +45,7 @@
 ## 5/14/19
 - today we worked a lot on styling
 - we redesigned the whole games look
+
+## 5/16/19
+- Today ethan made the game have a cool ending popup!
+- next class, we will either resume working on stying or maybe getting rid of the zeros
