@@ -1,7 +1,7 @@
 h1{
   font-family: "Impact";
-  color:navy;
-  font-size:40pt
+	color:navy;
+	font-size:40pt
 }
 
 h2{
@@ -29,9 +29,21 @@ button {
 }
 
 #start-btn {
-  font-family: "Helvetica", serif;
-  color:navy;
-  background-color:#d8fbff;
+font-family: "Helvetica", serif;
+color:navy;
+ background-color:#d8fbff;
+font-size: 20px;
+width: 150px;
+height:50px;
+
+
+}
+
+#reset-btn {
+
+	font-family: "Helvetica", serif;
+	color:navy;
+	background-color:#d8fbff;
   font-size: 20px;
   width: 150px;
   height:50px;
