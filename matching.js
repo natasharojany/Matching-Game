@@ -40,9 +40,9 @@ function flip(cardId){
     numMatches++;
   } else {
     card = document.querySelector("#card" + flippedCards[0]);
-    card.innerText = "0";
+    card.innerHTML = "&nbsp;";
     card = document.querySelector("#card" + flippedCards[1]);
-    card.innerText = "0";
+    card.innerHTML = "&nbsp;";
     flippedCards = []
   }
 }
@@ -62,7 +62,7 @@ function resetGame() {
   newBoard();
   flippedCards.length = 0;
   document.querySelectorAll('.card').forEach((node) => {
-    node.innerHTML = "0";
+    node.innerHTML = "&nbsp;";
   })
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
