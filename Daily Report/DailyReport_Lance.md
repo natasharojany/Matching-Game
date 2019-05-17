@@ -55,3 +55,8 @@
   - Worked on getting a message to play once you win the game
   - Struggled with ^^
   - After this, there isn't much more we can do.
+
+  ## May 17
+  - Continued to work on getting a message to play once you win the game
+  - We figured out how to do that but struggled with figuring it out.
+  - Afer this, we don't really have much to do, if anything.
