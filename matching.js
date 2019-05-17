@@ -27,6 +27,7 @@ function matches(){
   return arr[first] === arr[second]
 }
 
+
 function flip(cardId){
   console.log(cardId);
   if (flippedCards.length < 2) {
@@ -38,11 +39,12 @@ function flip(cardId){
   else if (matches()) {
     flippedCards = []
     numMatches++;
+    gameOver();
   } else {
     card = document.querySelector("#card" + flippedCards[0]);
-    card.innerText = "0";
+    card.innerHTML = "&nbsp;";
     card = document.querySelector("#card" + flippedCards[1]);
-    card.innerText = "0";
+    card.innerHTML = "&nbsp;";
     flippedCards = []
   }
 }
@@ -62,7 +64,7 @@ function resetGame() {
   newBoard();
   flippedCards.length = 0;
   document.querySelectorAll('.card').forEach((node) => {
-    node.innerHTML = "0";
+    node.innerHTML = "&nbsp;";
   })
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
@@ -104,8 +106,9 @@ function timer(){
   }
 }
 
- //  function gameOver(){
- //    if (flippedCards.length === arr.length/2){
- //      alert("You matched all the cards in" + moves "tries");
- //    }
- // }
+  function gameOver(){
+    if (numMatches === arr.length/2){
+      alert("You matched all the cards in " + moves + " tries");
+      resetGame();
+    }
+ }
