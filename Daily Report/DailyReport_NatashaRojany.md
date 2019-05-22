@@ -57,3 +57,7 @@
 - today we got the top of the cards to be blank 
 - next we will try to make the letters a picture or soemthing
 
+## 5/22/19
+- today our goal is to remove the numbers from the tiles 
+- we also want to add a background photo
+
