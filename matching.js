@@ -61,6 +61,7 @@ function startGame(){
 
 function resetGame() {
   moves = 0;
+  totalSeconds = 0; 
   newBoard();
   flippedCards.length = 0;
   document.querySelectorAll('.card').forEach((node) => {
