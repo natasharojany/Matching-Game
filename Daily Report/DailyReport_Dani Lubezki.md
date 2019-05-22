@@ -49,3 +49,8 @@
 ## 5/16/19
 - Today ethan made the game have a cool ending popup!
 - next class, we will either resume working on stying or maybe getting rid of the zeros
+
+## 5/17/19
+- Today I got the zeros on the backs of the cards to dissapear! Ethan also got the thing he worked on last class to work more efficiently
+- It was hard to figure out what to put in the quotations instead of zeros but we finally figured out we had to use &nbsp. 
+- Next class i dont quie know what i will work on but i think i will probably just continue to make small improveents!
