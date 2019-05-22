@@ -83,11 +83,12 @@ function moveCounter() {
   return moves;
 }
 
+var totalSeconds = 0;
 var timerIndex =  null;
 function timer(){
   var minutesLabel = document.getElementById("minutes");
   var secondsLabel = document.getElementById("seconds");
-  var totalSeconds = 0;
+  
   timerIndex = setInterval(setTime, 1000);
 
   function setTime() {
@@ -106,9 +107,13 @@ function timer(){
   }
 }
 
-  function gameOver(){
-    if (numMatches === arr.length/2){
-      alert("You matched all the cards in " + moves + " tries");
-      resetGame();
-    }
- }
+function gameOver(){
+  if (numMatches === arr.length/2){
+    endGame();
+  }
+}
+
+function endGame(){
+  alert("You matched all the cards in " + moves + " tries and it took you " + totalSeconds + " seconds!");
+    resetGame();
+}

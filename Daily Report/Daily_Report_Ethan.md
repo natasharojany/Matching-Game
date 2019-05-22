@@ -53,3 +53,8 @@ Today my group and I started the foundation of our program.
 - Today I got the win message to work but only for the number of moves, not the amount of time it took. 
 - However, I noticed that after the message pops up and once you close it, the timer keeps going and the board doesn't reset. 
 - Next class, I will try to perfect this.
+
+## 5/17/19
+- I made a lot more progress on the win message. I got it to print the number of seconds that it takes however I haven't been able to make it show minutes if you go over a minute.
+- I also noticed another bug where once you have completed the game and the win message shows up and once you click "OK" the time gets set back to 0 but if you press start game right away it continues from the number of seconds it took you for the last game.
+- Next time I work on this I will attempt to fix it.
