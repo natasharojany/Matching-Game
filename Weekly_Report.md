@@ -24,3 +24,8 @@
 - This week we made some progress! we got rid of the zeros on the backs of the cards, and we coded the game to end once the player matches all the cards
 - We had touble establishing what to put in the quotations instead of a zero. We finally figured out we needed to use &nbsp!
 - Next week we will ocntinue to make small adjustments and improvements.
+
+## 5/22/19
+- We started putting images on our buttons instead of letters and continued to work on fixing bugs
+- We had trouble getting the images on the buttons.
+- Next week we will continue to work on getting the images on the button and fixing bugs.
