@@ -20,3 +20,7 @@
 - We got the reset button to do everything we wanted which was kind of our last challenge, however next week we are going to try and implement a win message once the game ends.
 - We also gave a presentation in which we discussed a problem that our team faced and the solution that we came up with. The presentation is linked below: https://drive.google.com/open?id=16zwP8WU7-xpufrUq7zVECI6U-jNDS9X_w9okXBbE5iU
 
+## 5/17/19
+- This week we made some progress! we got rid of the zeros on the backs of the cards, and we coded the game to end once the player matches all the cards
+- We had touble establishing what to put in the quotations instead of a zero. We finally figured out we needed to use &nbsp!
+- Next week we will ocntinue to make small adjustments and improvements.
