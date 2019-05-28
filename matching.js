@@ -32,7 +32,9 @@ function flip(cardId){
   console.log(cardId);
   if (flippedCards.length < 2) {
     card = document.querySelector("#card" + cardId);
-    card.innerText = arr[cardId];
+    //card.innerText = arr[cardId];
+    const URL = letterToURL(arr[cardId]);
+    card.style.backgroundImage = "url(" + URL + ")";
     flippedCards.push(cardId); 
     moveCounter()
   }
@@ -43,8 +45,10 @@ function flip(cardId){
   } else {
     card = document.querySelector("#card" + flippedCards[0]);
     card.innerHTML = "&nbsp;";
+    card.style.backgroundImage = null;
     card = document.querySelector("#card" + flippedCards[1]);
     card.innerHTML = "&nbsp;";
+    card.style.backgroundImage = null;
     flippedCards = []
   }
 }
@@ -53,6 +57,32 @@ function flip(cardId){
   flippedCards = []
  }
 
+function letterToURL(letter){
+  switch(letter){
+    case "A":
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/220px-SpongeBob_SquarePants_character.svg.png";
+    case "B":
+      return "https://www.pinclipart.com/picdir/middle/183-1837527_patrick-star-clipart-png-download.png";
+    case "C":
+      return "https://vignette.wikia.nocookie.net/spongebob/images/8/84/Sandy_stock_art.png/revision/latest?cb=20181202012358";
+    case "D":
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Mr._Krabs.svg/220px-Mr._Krabs.svg.png";
+    case "E":
+      return "https://vignette.wikia.nocookie.net/great-characters/images/4/47/Plankton.png/revision/latest?cb=20180808223621";
+    case "F":
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Pearl_Krabs.svg/220px-Pearl_Krabs.svg.png";
+    case "G":
+      return "https://vignette.wikia.nocookie.net/spongebob/images/a/a6/Karen_mobile_stock_art.png/revision/latest?cb=20181202012333";
+    case "H":
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Squidward_Tentacles.svg/220px-Squidward_Tentacles.svg.png";
+    case "I":
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Mrs._Puff.svg/220px-Mrs._Puff.svg.png";
+    case "J":
+      return "https://i.imgur.com/pnevrPA.jpg";
+    default:
+      return null;
+  }
+}
 
 function startGame(){
   shuffle(arr);

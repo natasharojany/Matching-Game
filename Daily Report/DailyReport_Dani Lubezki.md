@@ -54,3 +54,7 @@
 - Today I got the zeros on the backs of the cards to dissapear! Ethan also got the thing he worked on last class to work more efficiently
 - It was hard to figure out what to put in the quotations instead of zeros but we finally figured out we had to use &nbsp. 
 - Next class i dont quie know what i will work on but i think i will probably just continue to make small improveents!
+
+## 5/22/19
+- Today we removed the letters and replaced them with images!!!
+- It was cool to learn about switch case
