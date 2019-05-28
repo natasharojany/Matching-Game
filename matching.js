@@ -97,11 +97,13 @@ function resetGame() {
   flippedCards.length = 0;
   document.querySelectorAll('.card').forEach((node) => {
     node.innerHTML = "&nbsp;";
+    node.style.backgroundImage = null;
   })
   document.getElementById('counter').innerHTML = moves;
   document.getElementById("minutes").innerHTML = '00';
   document.getElementById("seconds").innerHTML = '00';
   clearInterval(timerIndex);
+
 
 }
 
