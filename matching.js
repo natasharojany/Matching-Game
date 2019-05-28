@@ -79,7 +79,7 @@ function letterToURL(letter){
     case "I":
       return "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Mrs._Puff.svg/220px-Mrs._Puff.svg.png";
     case "J":
-      return "https://i.imgur.com/pnevrPA.jpg";
+      return "https://vignette.wikia.nocookie.net/nickelodeon/images/7/76/Gary_in_2018.png/revision/latest?cb=20181227215100";
     default:
       return null;
   }
