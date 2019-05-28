@@ -60,3 +60,8 @@
   - Continued to work on getting a message to play once you win the game
   - We figured out how to do that but struggled with figuring it out.
   - Afer this, we don't really have much to do, if anything.
+  
+  ## May 22
+  - Honestly didn't do much work today, did some cleanup and attempted to help Ethan solve his pronlem
+  - We could get the win message to work properly/reset button
+  - We will hopefully be able to get pictures on the buttons instead of letters.

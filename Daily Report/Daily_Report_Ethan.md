@@ -58,3 +58,8 @@ Today my group and I started the foundation of our program.
 - I made a lot more progress on the win message. I got it to print the number of seconds that it takes however I haven't been able to make it show minutes if you go over a minute.
 - I also noticed another bug where once you have completed the game and the win message shows up and once you click "OK" the time gets set back to 0 but if you press start game right away it continues from the number of seconds it took you for the last game.
 - Next time I work on this I will attempt to fix it.
+
+## 5/22/19
+- Today I completed the win message so that there are no bugs anymore.
+- As a group, we played around with styling a little bit but made no major changes.
+
