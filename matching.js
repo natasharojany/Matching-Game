@@ -35,7 +35,7 @@ function flip(cardId){
     //card.innerText = arr[cardId];
     const URL = letterToURL(arr[cardId]);
     card.style.backgroundImage = "url(" + URL + ")";
-    card.style.backgroundSize = "80px 80px"; 
+    card.style.backgroundSize = "75px 75px"; 
     flippedCards.push(cardId); 
     moveCounter()
   }
@@ -79,7 +79,7 @@ function letterToURL(letter){
     case "I":
       return "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Mrs._Puff.svg/220px-Mrs._Puff.svg.png";
     case "J":
-      return "https://vignette.wikia.nocookie.net/nickelodeon/images/7/76/Gary_in_2018.png/revision/latest?cb=20181227215100";
+      return "https://longfordpc.com/images/snail-clipart-gary-4.png";
     default:
       return null;
   }
