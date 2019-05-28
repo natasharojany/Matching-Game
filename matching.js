@@ -63,7 +63,7 @@ function letterToURL(letter){
     case "A":
       return "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/220px-SpongeBob_SquarePants_character.svg.png";
     case "B":
-      return "https://www.pinclipart.com/picdir/middle/183-1837527_patrick-star-clipart-png-download.png";
+      return "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png";
     case "C":
       return "https://vignette.wikia.nocookie.net/spongebob/images/8/84/Sandy_stock_art.png/revision/latest?cb=20181202012358";
     case "D":
