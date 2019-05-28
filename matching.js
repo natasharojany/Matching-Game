@@ -122,9 +122,7 @@ var timerIndex =  null;
 function timer(){
   var minutesLabel = document.getElementById("minutes");
   var secondsLabel = document.getElementById("seconds");
-  
   timerIndex = setInterval(setTime, 1000);
-
   function setTime() {
     ++totalSeconds;
     secondsLabel.innerHTML = pad(totalSeconds % 60);

@@ -10,5 +10,5 @@
 - Pictures on buttons
 
 ## TODO
-- Finish the pictures
+- Fix the reset button
 

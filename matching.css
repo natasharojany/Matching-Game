@@ -31,7 +31,7 @@ button {
 #start-btn {
 font-family: "Helvetica", serif;
 color:navy;
- background-color:#d8fbff;
+ background-color:#eafeff;
 font-size: 20px;
 width: 150px;
 height:50px;
@@ -42,7 +42,7 @@ height:50px;
 
 	font-family: "Helvetica", serif;
 	color:navy;
-	background-color:#d8fbff;
+	background-color:#eafeff;
   font-size: 20px;
   width: 150px;
   height:50px;
@@ -52,7 +52,7 @@ height:50px;
 #reset-btn {
   font-family: "Helvetica", serif;
   color:navy;
-  background-color:#d8fbff; 
+  background-color:#eafeff; 
   font-size: 20px;
   width: 150px;
   height:50px;
@@ -62,7 +62,7 @@ height:50px;
 #board {
   max-width: 530px;
   border-style: double;
-  border-color: gray;
+  border-color: orange;
   border-radius: 15px;
   border-width: 15px;
 }
