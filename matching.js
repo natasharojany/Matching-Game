@@ -35,6 +35,7 @@ function flip(cardId){
     //card.innerText = arr[cardId];
     const URL = letterToURL(arr[cardId]);
     card.style.backgroundImage = "url(" + URL + ")";
+    card.style.backgroundSize = "80px 80px"; 
     flippedCards.push(cardId); 
     moveCounter()
   }
@@ -58,7 +59,7 @@ function flip(cardId){
  }
 
 function letterToURL(letter){
-  switch(letter){
+  switch(letter){ 
     case "A":
       return "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/220px-SpongeBob_SquarePants_character.svg.png";
     case "B":
