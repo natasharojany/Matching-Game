@@ -63,3 +63,8 @@ Today my group and I started the foundation of our program.
 - Today I completed the win message so that there are no bugs anymore.
 - As a group, we played around with styling a little bit but made no major changes.
 
+## 5/28/19
+- Today I helped add the spongebob photos to our tiles and assisted with styling changes.
+- At the end of class, however, I ran into a bug with the win message where it is not showing anymore
+- I will address it next class and attempt to fix it.
+
