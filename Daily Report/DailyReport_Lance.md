@@ -65,3 +65,7 @@
   - Honestly didn't do much work today, did some cleanup and attempted to help Ethan solve his pronlem
   - We could get the win message to work properly/reset button
   - We will hopefully be able to get pictures on the buttons instead of letters.
+  ## May 26
+   - Worked on fixing bugs and styling
+   - We got most of our known bugs fixed
+   - Hopefully by next class we will be all done.
